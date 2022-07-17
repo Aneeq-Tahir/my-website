@@ -124,7 +124,7 @@ p {
 h1 {
 	font-size: 4em;
 	font-family: 'Dancing Script', sans-serif;
-	margin-top: 0;
+	margin: 5px 0px 20px;
 }
 
 h2 {
