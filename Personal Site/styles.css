@@ -1,12 +1,17 @@
+html,body {
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+
 body {
 	font-family: 'Jost', sans-serif;
 	background-color: #EAF6F6;
-	margin: 0;
 }
 
 header table{
-    margin: auto;
-    margin-left: 30%;
+        margin: auto;
+        margin-left: 30%;
 }
 
 header img {
@@ -61,7 +66,7 @@ input:not(#submit), textarea {
 	width: 20rem;
 	padding: 7px;
 	border-radius: 10px;
-	border: none;
+	border: 0.5px solid gray;
 }
 
 #submit {
@@ -96,6 +101,10 @@ a {
 }
 
 a:hover {
+	color: black;
+}
+
+a:active {
 	color: black;
 }
 
