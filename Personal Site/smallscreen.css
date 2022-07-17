@@ -27,14 +27,14 @@ header img {
 	line-height: 1.5em;
 	letter-spacing: 0.5px;
 	text-align: justify;
-	max-width: 65%;
+	max-width: 73%;
 	margin: 10px auto 10px;
 }
 
 hr {
 	border: none;
 	border-top: 13px dotted #9A9A9A;
-	width: 20%;
+	width: 25%;
 	margin: 14px auto;
 }
 
@@ -44,10 +44,12 @@ hr {
 	border-radius: 8px;
 	padding: 5px;
 	margin-top: 0;
+	font-size: 14px;
+	width: 5%;
 }
 
 label {
-	font-size: 17px;
+	font-size: 15px;
 	margin-top: 20px;
 }
 
@@ -56,7 +58,7 @@ input, textarea {
 }
 
 input[placeholder] {
-	font-size: 17px;
+	font-size: 15px;
 }
 
 fieldset {
@@ -64,16 +66,16 @@ fieldset {
 }
 
 input:not(#submit), textarea {
-	width: 20rem;
-	padding: 7px;
+	width: 15rem;
+	padding: 5px;
 	border-radius: 10px;
 	border: 0.5px solid gray;
 }
 
 #submit {
-	font-size: 17px;
+	font-size: 15px;
 	padding: 8px;
-	margin: 5px 0px 0px 7em;
+	margin: 5px 0px 0px 5.2em;
 	width: 8em;
 	background: none;
     cursor: pointer;
@@ -84,7 +86,7 @@ input:not(#submit), textarea {
 
 #bottom-floating-box {
 	width: 100%;
-	height: 120px;
+	height: 100px;
 	background-color: #006EB3;
 }
 
@@ -96,7 +98,7 @@ a {
 	font-size: 20px;
 	position: relative;
 	top: 30%;
-	left: 38%;
+	left: 35%;
 	color: #66BFBF;
 	text-decoration: none;
 }
@@ -122,23 +124,28 @@ p {
 }
 
 h1 {
-	font-size: 3em;
+	font-size: 2.5em;
 	font-family: 'Dancing Script', sans-serif;
 	margin-top: 0;
 }
 
 h2 {
-	font-size: 1.5em;
+	font-size: 1.35em;
 	text-align: center;
 	margin: 0;
 }
 
 h3 {
-	font-size: 1.5em;
+	font-size: 1.35em;
 	margin: 10px 0px; 
 }
 
 .center {
     position: relative;
     left: 17%;
+}
+/*This id is For contacts.html*/
+#center {
+    position: relative;
+    left: 6%;
 }
