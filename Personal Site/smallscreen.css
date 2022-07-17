@@ -1,0 +1,144 @@
+html,body {
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+
+body {
+	font-family: 'Jost', sans-serif;
+	background-color: #EAF6F6;
+}
+
+header table{
+    margin: auto;
+    position: relative;
+    right: 2em;
+}
+
+header img {
+	position: relative;
+	right: 14em;
+	margin: 0;
+}
+
+.text {
+	margin: 0px;
+	text-transform: capitalize;
+	line-height: 1.5em;
+	letter-spacing: 0.5px;
+	text-align: justify;
+	max-width: 65%;
+	margin: 10px auto 10px;
+}
+
+hr {
+	border: none;
+	border-top: 13px dotted #9A9A9A;
+	width: 20%;
+	margin: 14px auto;
+}
+
+.table {
+	border: 1px solid darkgray;
+	margin-bottom: 20px;
+	border-radius: 8px;
+	padding: 5px;
+	margin-top: 0;
+}
+
+label {
+	font-size: 17px;
+	margin-top: 20px;
+}
+
+input, textarea {
+	display: block;
+}
+
+input[placeholder] {
+	font-size: 17px;
+}
+
+fieldset {
+	border: none;
+}
+
+input:not(#submit), textarea {
+	width: 20rem;
+	padding: 7px;
+	border-radius: 10px;
+	border: 0.5px solid gray;
+}
+
+#submit {
+	font-size: 17px;
+	padding: 8px;
+	margin: 5px 0px 0px 7em;
+	width: 8em;
+	background: none;
+    cursor: pointer;
+    border: none;
+    color: #80e1e1;
+    background-color: #006EB3;
+}
+
+#bottom-floating-box {
+	width: 100%;
+	height: 120px;
+	background-color: #006EB3;
+}
+
+li {
+	font-size: 14px;
+}
+
+a {
+	font-size: 20px;
+	position: relative;
+	top: 30%;
+	left: 38%;
+	color: #66BFBF;
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+}
+
+a:active {
+	color: black;
+}
+
+a:visited {
+	color: rgb(176, 97, 229);
+}
+
+h1, h2, h3, h3, h4, h5, h6 {
+	color: #66BFBF;
+}
+
+p {
+	font-size: 14px;
+}
+
+h1 {
+	font-size: 3em;
+	font-family: 'Dancing Script', sans-serif;
+	margin-top: 0;
+}
+
+h2 {
+	font-size: 1.5em;
+	text-align: center;
+	margin: 0;
+}
+
+h3 {
+	font-size: 1.5em;
+	margin: 10px 0px; 
+}
+
+.center {
+    position: relative;
+    left: 17%;
+}
