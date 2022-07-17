@@ -16,6 +16,7 @@ header table{
 header img {
 	position: relative;
 	left: -11px;
+	top: 5px;
 	margin: 0;
 	width: 90px;
 }
@@ -32,8 +33,8 @@ header img {
 
 hr {
 	border: none;
-	border-top: 13px dotted #9A9A9A;
-	width: 25%;
+	border-top: 10px dotted #9A9A9A;
+	width: 30%;
 	margin: 14px auto;
 }
 
@@ -123,10 +124,9 @@ p {
 }
 
 h1 {
-	font-size: 2.25em;
+	font-size: 2.5em;
 	font-family: 'Dancing Script', sans-serif;
-	margin-top: 0;
-	height: 10%	;
+	margin: 10px 0px 20px;
 }
 
 h2 {
