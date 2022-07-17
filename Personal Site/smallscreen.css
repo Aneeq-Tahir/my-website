@@ -11,14 +11,13 @@ body {
 
 header table{
     margin: auto;
-    position: relative;
-    right: 2em;
 }
 
 header img {
 	position: relative;
-	right: 14em;
+	left: -11px;
 	margin: 0;
+	width: 90px;
 }
 
 .text {
@@ -124,9 +123,10 @@ p {
 }
 
 h1 {
-	font-size: 2.5em;
+	font-size: 2.25em;
 	font-family: 'Dancing Script', sans-serif;
 	margin-top: 0;
+	height: 10%	;
 }
 
 h2 {
@@ -144,7 +144,7 @@ h3 {
     position: relative;
     left: 17%;
 }
-/*This id is For contacts.html*/
+/*This id is For Contacts.html*/
 #center {
     position: relative;
     left: 6%;
